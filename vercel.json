@@ -1,8 +1,10 @@
 {
+  "buildCommand": "VERCEL=1 bun run build",
+  "outputDirectory": "dist/client",
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/"
+      "destination": "/index.html"
     }
   ]
 }
